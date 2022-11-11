@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <title>WhatsApp UI</title>
+</head>
+
+<body>
+    <header class="main-header">
+        <p class="font-sm"><a href="#">WhatsApp</a></p>
+
+    </header>
+    <nav>
+        <div class="space-between sub-header">
+            <div class="contact-sub-header space-between">
+                <div class="profile-img">
+                    <img src="img/PRY.png" alt="">
+                </div>
+                <div class="sub-nav">
+
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#5a5a5a"
+                        class="bi bi-plus-circle" viewBox="0 0 16 16">
+                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                        <path
+                            d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#5a5a5a"
+                        class="bi bi-chat-left-dots-fill" viewBox="0 0 16 16">
+                        <path
+                            d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H4.414a1 1 0 0 0-.707.293L.854 15.146A.5.5 0 0 1 0 14.793V2zm5 4a1 1 0 1 0-2 0 1 1 0 0 0 2 0zm4 0a1 1 0 1 0-2 0 1 1 0 0 0 2 0zm3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#5a5a5a"
+                        class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+                        <path
+                            d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z" />
+                    </svg>
+                </div>
+            </div>
+            <div class="chat-sub-header space-between">
+                <div class="profile-img flex-row">
+                    <img src="img/p3.jpg" alt="">
+                    <p>Charles <i class="far fa-face-smile"></i></p>
+                </div>
+                <div class="chat-nav">
+                    <i class="fas fa-search"></i>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#5a5a5a"
+                        class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+                        <path
+                            d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Contact Area -->
+    <div class="main-wrap">
+        <div class="contact-block">
+            <div class="search-bar flex-row">
+                <i class="fas fa-search"></i>
+                <input type="text" placeholder="Search or start a new chat">
+                <i class="fas fa-bars"> </i>
+            </div>
+
+            <!-- Chat profiles -->
+            <div class="profiles-wrap">
+                <div class="profile-main flex-row border-top">
+                    <div class="profile-img">
+                        <img src="img/p1.jpg" alt="">
+                    </div>
+                    <div class="chat-message">
+                        <h3>John Doe</h3>
+                        <div class="space-between">
+                            <div class=" flex-row name">
+                                <img src="img/check2-all.svg" alt="">
+                                <p>Hello world </p>
+                            </div>
+                            <div class="duration">
+                                <span class="date">21/03/2022</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="profile-main flex-row">
+                    <div class="profile-img">
+                        <img src="img/p2.jpg" alt="">
+                    </div>
+                    <div class="chat-message">
+                        <h3>James Smith</h3>
+                        <div class="space-between">
+                            <div class=" flex-row name">
+                                <p>Hello world </p>
+                            </div>
+                            <div class="duration">
+                                <span class="date">21/03/2022</span>
+                                <strong class="message-no">2</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="profile-main flex-row">
+                    <div class="profile-img">
+                        <img src="img/p3.jpg" alt="">
+                    </div>
+                    <div class="chat-message">
+                        <h3>Charles <i class="far fa-face-smile"></i></h3>
+                        <div class="space-between">
+                            <div class=" flex-row name">
+                                <p>Hello world </p>
+                            </div>
+                            <div class="duration">
+                                <span class="date">21/03/2022</span>
+                                <strong class="message-no">7</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="profile-main flex-row">
+                    <div class="profile-img">
+                        <img src="img/p4.jpg" alt="">
+                    </div>
+                    <div class="chat-message">
+                        <h3>Sarah</h3>
+                        <div class="space-between">
+                            <div class=" flex-row name">
+                                <img src="img/check2-all.svg" alt="">
+                                <p>Hello world </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="profile-main flex-row">
+                    <div class="profile-img">
+                        <img src="img/p10.png" alt="">
+                    </div>
+                    <div class="chat-message">
+                        <h3>David Okoro</h3>
+                        <div class="space-between">
+                            <div class=" flex-row name">
+                                <img src="img/check2-all.svg" alt="">
+                                <p>Hello world </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="profile-main flex-row">
+                    <div class="profile-img">
+                        <img src="img/p15.jpg" alt="">
+                    </div>
+                    <div class="chat-message">
+                        <h3>Jackson</h3>
+                        <div class="space-between">
+                            <div class=" flex-row name">
+                                <p>Hello world </p>
+                            </div>
+                            <div class="duration">
+                                <span class="date">21/03/2022</span>
+                                <strong class="message-no">2</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="profile-main flex-row">
+                    <div class="profile-img">
+                        <img src="img/p10.png" alt="">
+                    </div>
+                    <div class="chat-message">
+                        <h3>Faith</h3>
+                        <div class="space-between">
+                            <div class=" flex-row name">
+                                <p>Hello world </p>
+                            </div>
+                            <div class="duration">
+                                <span class="date">21/03/2022</span>
+                                <strong class="message-no">4</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="profile-main flex-row">
+                    <div class="profile-img">
+                        <img src="img/p5.jpg" alt="">
+                    </div>
+                    <div class="chat-message">
+                        <h3>Jane</h3>
+                        <div class="space-between">
+                            <div class=" flex-row name">
+                                <p>Hello world </p>
+                            </div>
+                            <div class="duration">
+                                <span class="date">21/03/2022</span>
+                                <strong class="message-no">2</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="profile-main flex-row">
+                    <div class="profile-img">
+                        <img src="img/p6.jpg" alt="">
+                    </div>
+                    <div class="chat-message">
+                        <h3>Victor</h3>
+                        <div class="space-between">
+                            <div class=" flex-row name">
+                                <p>Hello world </p>
+                            </div>
+                            <div class="duration">
+                                <span class="date">21/03/2022</span>
+                                <strong class="message-no">6</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="profile-main flex-row">
+                    <div class="profile-img">
+                        <img src="img/p7.jpg" alt="">
+                    </div>
+                    <div class="chat-message">
+                        <h3>Joy</h3>
+                        <div class="space-between">
+                            <div class=" flex-row name">
+                                <p>Hello world </p>
+                            </div>
+                            <div class="duration">
+                                <span class="date">21/03/2022</span>
+                                <strong class="message-no">2</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="profile-main flex-row">
+                    <div class="profile-img">
+                        <img src="img/p8.jpg" alt="">
+                    </div>
+                    <div class="chat-message">
+                        <h3>Mr. Princewill</h3>
+                        <div class="space-between">
+                            <div class=" flex-row name">
+                                <p>Hello world </p>
+                            </div>
+                            <div class="duration">
+                                <span class="date">21/03/2022</span>
+                                <strong class="message-no">5</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="profile-main flex-row">
+                    <div class="profile-img">
+                        <img src="img/p9.jpg" alt="">
+                    </div>
+                    <div class="chat-message">
+                        <h3>Chisom</h3>
+                        <div class="space-between">
+                            <div class=" flex-row name">
+                                <img src="img/check2.svg" alt="">
+                                <p>Hello world </p>
+                            </div>
+                            <div class="duration">
+                                <span class="date">21/03/2022</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="profile-main flex-row">
+                    <div class="profile-img">
+                        <img src="img/p10.png" alt="">
+                    </div>
+                    <div class="chat-message">
+                        <h3>Isaac</h3>
+                        <div class="space-between">
+                            <div class=" flex-row name">
+                                <p>Hello world </p>
+                            </div>
+                            <div class="duration">
+                                <span class="date">21/03/2022</span>
+                                <strong class="message-no">1</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="profile-main flex-row">
+                    <div class="profile-img">
+                        <img src="img/p11.jpg" alt="">
+                    </div>
+                    <div class="chat-message">
+                        <h3>Pryberto</h3>
+                        <div class="space-between">
+                            <div class=" flex-row name">
+                                <img src="img/check2-all.svg" alt="">
+                                <p>Hello world </p>
+                            </div>
+                            <div class="duration">
+                                <span class="date">21/03/2022</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="profile-main flex-row">
+                    <div class="profile-img">
+                        <img src="img/p12.jpg" alt="">
+                    </div>
+                    <div class="chat-message">
+                        <h3>
+                            ABLE MINDS <i class="fas fa-heart" style="color: red;"></i>
+                        </h3>
+                        <div class="space-between">
+                            <div class=" flex-row name">
+                                <p> How are y'all doing today?</p>
+                            </div>
+                            <div class="duration">
+                                <span class="date">21/03/2022</span>
+                                <strong class="message-no">24</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="message-block">
+            <div class="main-messages">
+                <div class="messages-wrap">
+                    <div class="yourMessage">
+                        <div class="box message space-between">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi repellat sed at
+                                libero
+                                nam. Quasi?
+                            </p>
+                            <span>14/09/2022</span>
+                            <!-- <img src="img/check2-all.svg" alt=""> -->
+                            <svg width="25" height="7" viewBox="0 0 16 9" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M7.50038 7.50128L6.95754 6.95783L6.95763 6.95774L7.14708 7.14718L7.50066 7.50076L7.85421 7.14716L14.5002 0.500185L14.5002 0.500158L14.5006 0.5L14.5011 0.500185L14.5013 0.500632L14.5011 0.501078L7.50108 7.50108L7.50063 7.50153L7.14663 7.85463L7.50038 7.50128ZM3.64702 7.14713L4.0006 7.50082L4.35421 7.14716L11.0002 0.500185L11.0002 0.500158L11.0004 0.500048L11.0006 0.5L11.0009 0.500048L11.0011 0.500185L11.0012 0.50039L11.0013 0.500632L11.0012 0.500874L11.0011 0.501078L4.00108 7.50108L4.00063 7.50152L4.00019 7.50108L0.500185 4.00108L0.5 4.00063L0.500185 4.00019L0.500632 4L0.500873 4.00005L0.501078 4.00019L3.64702 7.14713Z"
+                                    fill="#FF0000" stroke="#4fb6ec" />
+                            </svg>
+
+
+                            <div class="shape"></div>
+                        </div>
+                    </div>
+                    <div class="myMessage">
+                        <div class="box message space-between">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi repellat sed at
+                                libero
+                                nam. Quasi?
+                            </p>
+                            <span>14/09/2022</span>
+                            <svg width="25" height="7" viewBox="0 0 16 9" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M7.50038 7.50128L6.95754 6.95783L6.95763 6.95774L7.14708 7.14718L7.50066 7.50076L7.85421 7.14716L14.5002 0.500185L14.5002 0.500158L14.5006 0.5L14.5011 0.500185L14.5013 0.500632L14.5011 0.501078L7.50108 7.50108L7.50063 7.50153L7.14663 7.85463L7.50038 7.50128ZM3.64702 7.14713L4.0006 7.50082L4.35421 7.14716L11.0002 0.500185L11.0002 0.500158L11.0004 0.500048L11.0006 0.5L11.0009 0.500048L11.0011 0.500185L11.0012 0.50039L11.0013 0.500632L11.0012 0.500874L11.0011 0.501078L4.00108 7.50108L4.00063 7.50152L4.00019 7.50108L0.500185 4.00108L0.5 4.00063L0.500185 4.00019L0.500632 4L0.500873 4.00005L0.501078 4.00019L3.64702 7.14713Z"
+                                    fill="#FF0000" stroke="#4fb6ec" />
+                            </svg>
+                            <div class="shape"></div>
+                        </div>
+                    </div>
+                    <div class="yourMessage">
+                        <div class="box message space-between">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi repellat sed at
+                                libero
+                                nam. Quasi?
+                            </p>
+                            <span>14/09/2022</span>
+                            <svg width="25" height="7" viewBox="0 0 16 9" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M7.50038 7.50128L6.95754 6.95783L6.95763 6.95774L7.14708 7.14718L7.50066 7.50076L7.85421 7.14716L14.5002 0.500185L14.5002 0.500158L14.5006 0.5L14.5011 0.500185L14.5013 0.500632L14.5011 0.501078L7.50108 7.50108L7.50063 7.50153L7.14663 7.85463L7.50038 7.50128ZM3.64702 7.14713L4.0006 7.50082L4.35421 7.14716L11.0002 0.500185L11.0002 0.500158L11.0004 0.500048L11.0006 0.5L11.0009 0.500048L11.0011 0.500185L11.0012 0.50039L11.0013 0.500632L11.0012 0.500874L11.0011 0.501078L4.00108 7.50108L4.00063 7.50152L4.00019 7.50108L0.500185 4.00108L0.5 4.00063L0.500185 4.00019L0.500632 4L0.500873 4.00005L0.501078 4.00019L3.64702 7.14713Z"
+                                    fill="#FF0000" stroke="#4fb6ec" />
+                            </svg>
+                            <div class="shape"></div>
+                        </div>
+                    </div>
+                    <div class="myMessage">
+                        <div class="box message space-between">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi repellat sed at
+                                libero
+                                nam. Quasi?
+                            </p>
+                            <span>14/09/2022</span>
+                            <svg width="25" height="7" viewBox="0 0 16 9" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M7.50038 7.50128L6.95754 6.95783L6.95763 6.95774L7.14708 7.14718L7.50066 7.50076L7.85421 7.14716L14.5002 0.500185L14.5002 0.500158L14.5006 0.5L14.5011 0.500185L14.5013 0.500632L14.5011 0.501078L7.50108 7.50108L7.50063 7.50153L7.14663 7.85463L7.50038 7.50128ZM3.64702 7.14713L4.0006 7.50082L4.35421 7.14716L11.0002 0.500185L11.0002 0.500158L11.0004 0.500048L11.0006 0.5L11.0009 0.500048L11.0011 0.500185L11.0012 0.50039L11.0013 0.500632L11.0012 0.500874L11.0011 0.501078L4.00108 7.50108L4.00063 7.50152L4.00019 7.50108L0.500185 4.00108L0.5 4.00063L0.500185 4.00019L0.500632 4L0.500873 4.00005L0.501078 4.00019L3.64702 7.14713Z"
+                                    fill="#FF0000" stroke="#4fb6ec" />
+                            </svg>
+                            <div class="shape"></div>
+                        </div>
+                    </div>
+                    <div class="yourMessage">
+                        <div class="box message space-between">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi repellat sed at
+                                libero
+                                nam. Quasi?
+                            </p>
+                            <span>14/09/2022</span>
+                            <svg width="25" height="7" viewBox="0 0 16 9" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M7.50038 7.50128L6.95754 6.95783L6.95763 6.95774L7.14708 7.14718L7.50066 7.50076L7.85421 7.14716L14.5002 0.500185L14.5002 0.500158L14.5006 0.5L14.5011 0.500185L14.5013 0.500632L14.5011 0.501078L7.50108 7.50108L7.50063 7.50153L7.14663 7.85463L7.50038 7.50128ZM3.64702 7.14713L4.0006 7.50082L4.35421 7.14716L11.0002 0.500185L11.0002 0.500158L11.0004 0.500048L11.0006 0.5L11.0009 0.500048L11.0011 0.500185L11.0012 0.50039L11.0013 0.500632L11.0012 0.500874L11.0011 0.501078L4.00108 7.50108L4.00063 7.50152L4.00019 7.50108L0.500185 4.00108L0.5 4.00063L0.500185 4.00019L0.500632 4L0.500873 4.00005L0.501078 4.00019L3.64702 7.14713Z"
+                                    fill="#FF0000" stroke="#4fb6ec" />
+                            </svg>
+                            <div class="shape"></div>
+                        </div>
+                    </div>
+                    <div class="myMessage">
+                        <div class="box message space-between">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi repellat sed at
+                                libero
+                                nam. Quasi?
+                            </p>
+                            <span>14/09/2022</span>
+                            <svg width="25" height="7" viewBox="0 0 16 9" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M7.50038 7.50128L6.95754 6.95783L6.95763 6.95774L7.14708 7.14718L7.50066 7.50076L7.85421 7.14716L14.5002 0.500185L14.5002 0.500158L14.5006 0.5L14.5011 0.500185L14.5013 0.500632L14.5011 0.501078L7.50108 7.50108L7.50063 7.50153L7.14663 7.85463L7.50038 7.50128ZM3.64702 7.14713L4.0006 7.50082L4.35421 7.14716L11.0002 0.500185L11.0002 0.500158L11.0004 0.500048L11.0006 0.5L11.0009 0.500048L11.0011 0.500185L11.0012 0.50039L11.0013 0.500632L11.0012 0.500874L11.0011 0.501078L4.00108 7.50108L4.00063 7.50152L4.00019 7.50108L0.500185 4.00108L0.5 4.00063L0.500185 4.00019L0.500632 4L0.500873 4.00005L0.501078 4.00019L3.64702 7.14713Z"
+                                    fill="#FF0000" stroke="#4fb6ec" />
+                            </svg>
+                            <div class="shape"></div>
+                        </div>
+                    </div>
+                    <div class="yourMessage">
+                        <div class="box message space-between">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi repellat sed at
+                                libero
+                                nam. Quasi?
+                            </p>
+                            <span>14/09/2022</span>
+                            <svg width="25" height="7" viewBox="0 0 16 9" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M7.50038 7.50128L6.95754 6.95783L6.95763 6.95774L7.14708 7.14718L7.50066 7.50076L7.85421 7.14716L14.5002 0.500185L14.5002 0.500158L14.5006 0.5L14.5011 0.500185L14.5013 0.500632L14.5011 0.501078L7.50108 7.50108L7.50063 7.50153L7.14663 7.85463L7.50038 7.50128ZM3.64702 7.14713L4.0006 7.50082L4.35421 7.14716L11.0002 0.500185L11.0002 0.500158L11.0004 0.500048L11.0006 0.5L11.0009 0.500048L11.0011 0.500185L11.0012 0.50039L11.0013 0.500632L11.0012 0.500874L11.0011 0.501078L4.00108 7.50108L4.00063 7.50152L4.00019 7.50108L0.500185 4.00108L0.5 4.00063L0.500185 4.00019L0.500632 4L0.500873 4.00005L0.501078 4.00019L3.64702 7.14713Z"
+                                    fill="#FF0000" stroke="#4fb6ec" />
+                            </svg>
+                            <div class="shape"></div>
+                        </div>
+                    </div>
+                    <div class="myMessage">
+                        <div class="box message space-between">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi repellat sed at
+                                libero
+                                nam. Quasi?
+                            </p>
+                            <span>14/09/2022</span>
+                            <svg width="25" height="7" viewBox="0 0 16 9" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M7.50038 7.50128L6.95754 6.95783L6.95763 6.95774L7.14708 7.14718L7.50066 7.50076L7.85421 7.14716L14.5002 0.500185L14.5002 0.500158L14.5006 0.5L14.5011 0.500185L14.5013 0.500632L14.5011 0.501078L7.50108 7.50108L7.50063 7.50153L7.14663 7.85463L7.50038 7.50128ZM3.64702 7.14713L4.0006 7.50082L4.35421 7.14716L11.0002 0.500185L11.0002 0.500158L11.0004 0.500048L11.0006 0.5L11.0009 0.500048L11.0011 0.500185L11.0012 0.50039L11.0013 0.500632L11.0012 0.500874L11.0011 0.501078L4.00108 7.50108L4.00063 7.50152L4.00019 7.50108L0.500185 4.00108L0.5 4.00063L0.500185 4.00019L0.500632 4L0.500873 4.00005L0.501078 4.00019L3.64702 7.14713Z"
+                                    fill="#FF0000" stroke="#4fb6ec" />
+                            </svg>
+                            <div class="shape"></div>
+                        </div>
+                    </div>
+                    <div class="yourMessage">
+                        <div class="box message space-between">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi repellat sed at
+                                libero
+                                nam. Quasi?
+                            </p>
+                            <span>14/09/2022</span>
+                            <svg width="25" height="7" viewBox="0 0 16 9" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M7.50038 7.50128L6.95754 6.95783L6.95763 6.95774L7.14708 7.14718L7.50066 7.50076L7.85421 7.14716L14.5002 0.500185L14.5002 0.500158L14.5006 0.5L14.5011 0.500185L14.5013 0.500632L14.5011 0.501078L7.50108 7.50108L7.50063 7.50153L7.14663 7.85463L7.50038 7.50128ZM3.64702 7.14713L4.0006 7.50082L4.35421 7.14716L11.0002 0.500185L11.0002 0.500158L11.0004 0.500048L11.0006 0.5L11.0009 0.500048L11.0011 0.500185L11.0012 0.50039L11.0013 0.500632L11.0012 0.500874L11.0011 0.501078L4.00108 7.50108L4.00063 7.50152L4.00019 7.50108L0.500185 4.00108L0.5 4.00063L0.500185 4.00019L0.500632 4L0.500873 4.00005L0.501078 4.00019L3.64702 7.14713Z"
+                                    fill="#FF0000" stroke="#4fb6ec" />
+                            </svg>
+                            <div class="shape"></div>
+                        </div>
+                    </div>
+                    <div class="myMessage">
+                        <div class="box message space-between">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi repellat sed at
+                                libero
+                                nam. Quasi?
+                            </p>
+                            <span>14/09/2022</span>
+                            <svg width="25" height="7" viewBox="0 0 16 9" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M7.50038 7.50128L6.95754 6.95783L6.95763 6.95774L7.14708 7.14718L7.50066 7.50076L7.85421 7.14716L14.5002 0.500185L14.5002 0.500158L14.5006 0.5L14.5011 0.500185L14.5013 0.500632L14.5011 0.501078L7.50108 7.50108L7.50063 7.50153L7.14663 7.85463L7.50038 7.50128ZM3.64702 7.14713L4.0006 7.50082L4.35421 7.14716L11.0002 0.500185L11.0002 0.500158L11.0004 0.500048L11.0006 0.5L11.0009 0.500048L11.0011 0.500185L11.0012 0.50039L11.0013 0.500632L11.0012 0.500874L11.0011 0.501078L4.00108 7.50108L4.00063 7.50152L4.00019 7.50108L0.500185 4.00108L0.5 4.00063L0.500185 4.00019L0.500632 4L0.500873 4.00005L0.501078 4.00019L3.64702 7.14713Z"
+                                    fill="#FF0000" stroke="#4fb6ec" />
+                            </svg>
+                            <div class="shape"></div>
+                        </div>
+                    </div>
+                    <div class="yourMessage">
+                        <div class="box message space-between">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi repellat sed at
+                                libero
+                                nam. Quasi?
+                            </p>
+                            <span>14/09/2022</span>
+                            <svg width="25" height="7" viewBox="0 0 16 9" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M7.50038 7.50128L6.95754 6.95783L6.95763 6.95774L7.14708 7.14718L7.50066 7.50076L7.85421 7.14716L14.5002 0.500185L14.5002 0.500158L14.5006 0.5L14.5011 0.500185L14.5013 0.500632L14.5011 0.501078L7.50108 7.50108L7.50063 7.50153L7.14663 7.85463L7.50038 7.50128ZM3.64702 7.14713L4.0006 7.50082L4.35421 7.14716L11.0002 0.500185L11.0002 0.500158L11.0004 0.500048L11.0006 0.5L11.0009 0.500048L11.0011 0.500185L11.0012 0.50039L11.0013 0.500632L11.0012 0.500874L11.0011 0.501078L4.00108 7.50108L4.00063 7.50152L4.00019 7.50108L0.500185 4.00108L0.5 4.00063L0.500185 4.00019L0.500632 4L0.500873 4.00005L0.501078 4.00019L3.64702 7.14713Z"
+                                    fill="#FF0000" stroke="#4fb6ec" />
+                            </svg>
+                            <div class="shape"></div>
+                        </div>
+                    </div>
+                    <div class="myMessage">
+                        <div class="box message space-between">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi repellat sed at
+                                libero
+                                nam. Quasi?
+                            </p>
+                            <span>14/09/2022</span>
+                            <svg width="25" height="7" viewBox="0 0 16 9" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M7.50038 7.50128L6.95754 6.95783L6.95763 6.95774L7.14708 7.14718L7.50066 7.50076L7.85421 7.14716L14.5002 0.500185L14.5002 0.500158L14.5006 0.5L14.5011 0.500185L14.5013 0.500632L14.5011 0.501078L7.50108 7.50108L7.50063 7.50153L7.14663 7.85463L7.50038 7.50128ZM3.64702 7.14713L4.0006 7.50082L4.35421 7.14716L11.0002 0.500185L11.0002 0.500158L11.0004 0.500048L11.0006 0.5L11.0009 0.500048L11.0011 0.500185L11.0012 0.50039L11.0013 0.500632L11.0012 0.500874L11.0011 0.501078L4.00108 7.50108L4.00063 7.50152L4.00019 7.50108L0.500185 4.00108L0.5 4.00063L0.500185 4.00019L0.500632 4L0.500873 4.00005L0.501078 4.00019L3.64702 7.14713Z"
+                                    fill="#FF0000" stroke="#4fb6ec" />
+                            </svg>
+                            <div class="shape"></div>
+                        </div>
+                    </div>
+                    <div class="yourMessage">
+                        <div class="box message space-between">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi repellat sed at
+                                libero
+                                nam. Quasi?
+                            </p>
+                            <span>14/09/2022</span>
+                            <svg width="25" height="7" viewBox="0 0 16 9" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M7.50038 7.50128L6.95754 6.95783L6.95763 6.95774L7.14708 7.14718L7.50066 7.50076L7.85421 7.14716L14.5002 0.500185L14.5002 0.500158L14.5006 0.5L14.5011 0.500185L14.5013 0.500632L14.5011 0.501078L7.50108 7.50108L7.50063 7.50153L7.14663 7.85463L7.50038 7.50128ZM3.64702 7.14713L4.0006 7.50082L4.35421 7.14716L11.0002 0.500185L11.0002 0.500158L11.0004 0.500048L11.0006 0.5L11.0009 0.500048L11.0011 0.500185L11.0012 0.50039L11.0013 0.500632L11.0012 0.500874L11.0011 0.501078L4.00108 7.50108L4.00063 7.50152L4.00019 7.50108L0.500185 4.00108L0.5 4.00063L0.500185 4.00019L0.500632 4L0.500873 4.00005L0.501078 4.00019L3.64702 7.14713Z"
+                                    fill="#FF0000" stroke="#4fb6ec" />
+                            </svg>
+                            <div class="shape"></div>
+                        </div>
+                    </div>
+                    <div class="myMessage">
+                        <div class="box message space-between">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi repellat sed at
+                                libero
+                                nam. Quasi?
+                            </p>
+                            <span>14/09/2022</span>
+                            <svg width="25" height="7" viewBox="0 0 16 9" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M7.50038 7.50128L6.95754 6.95783L6.95763 6.95774L7.14708 7.14718L7.50066 7.50076L7.85421 7.14716L14.5002 0.500185L14.5002 0.500158L14.5006 0.5L14.5011 0.500185L14.5013 0.500632L14.5011 0.501078L7.50108 7.50108L7.50063 7.50153L7.14663 7.85463L7.50038 7.50128ZM3.64702 7.14713L4.0006 7.50082L4.35421 7.14716L11.0002 0.500185L11.0002 0.500158L11.0004 0.500048L11.0006 0.5L11.0009 0.500048L11.0011 0.500185L11.0012 0.50039L11.0013 0.500632L11.0012 0.500874L11.0011 0.501078L4.00108 7.50108L4.00063 7.50152L4.00019 7.50108L0.500185 4.00108L0.5 4.00063L0.500185 4.00019L0.500632 4L0.500873 4.00005L0.501078 4.00019L3.64702 7.14713Z"
+                                    fill="#FF0000" stroke="#4fb6ec" />
+                            </svg>
+                            <div class="shape"></div>
+                        </div>
+                    </div>
+                    <div class="yourMessage">
+                        <div class="box message space-between">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi repellat sed at
+                                libero
+                                nam. Quasi?
+                            </p>
+                            <span>14/09/2022</span>
+                            <svg width="25" height="7" viewBox="0 0 16 9" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M7.50038 7.50128L6.95754 6.95783L6.95763 6.95774L7.14708 7.14718L7.50066 7.50076L7.85421 7.14716L14.5002 0.500185L14.5002 0.500158L14.5006 0.5L14.5011 0.500185L14.5013 0.500632L14.5011 0.501078L7.50108 7.50108L7.50063 7.50153L7.14663 7.85463L7.50038 7.50128ZM3.64702 7.14713L4.0006 7.50082L4.35421 7.14716L11.0002 0.500185L11.0002 0.500158L11.0004 0.500048L11.0006 0.5L11.0009 0.500048L11.0011 0.500185L11.0012 0.50039L11.0013 0.500632L11.0012 0.500874L11.0011 0.501078L4.00108 7.50108L4.00063 7.50152L4.00019 7.50108L0.500185 4.00108L0.5 4.00063L0.500185 4.00019L0.500632 4L0.500873 4.00005L0.501078 4.00019L3.64702 7.14713Z"
+                                    fill="#FF0000" stroke="#4fb6ec" />
+                            </svg>
+                            <div class="shape"></div>
+                        </div>
+                    </div>
+                    <div class="myMessage">
+                        <div class="box message space-between">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi repellat sed at
+                                libero
+                                nam. Quasi?
+                            </p>
+                            <span>14/09/2022</span>
+                            <svg width="25" height="7" viewBox="0 0 16 9" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M7.50038 7.50128L6.95754 6.95783L6.95763 6.95774L7.14708 7.14718L7.50066 7.50076L7.85421 7.14716L14.5002 0.500185L14.5002 0.500158L14.5006 0.5L14.5011 0.500185L14.5013 0.500632L14.5011 0.501078L7.50108 7.50108L7.50063 7.50153L7.14663 7.85463L7.50038 7.50128ZM3.64702 7.14713L4.0006 7.50082L4.35421 7.14716L11.0002 0.500185L11.0002 0.500158L11.0004 0.500048L11.0006 0.5L11.0009 0.500048L11.0011 0.500185L11.0012 0.50039L11.0013 0.500632L11.0012 0.500874L11.0011 0.501078L4.00108 7.50108L4.00063 7.50152L4.00019 7.50108L0.500185 4.00108L0.5 4.00063L0.500185 4.00019L0.500632 4L0.500873 4.00005L0.501078 4.00019L3.64702 7.14713Z"
+                                    fill="#FF0000" stroke="#4fb6ec" />
+                            </svg>
+                            <div class="shape"></div>
+                        </div>
+                    </div>
+                    <div class="yourMessage">
+                        <div class="box message space-between">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi repellat sed at
+                                libero
+                                nam. Quasi?
+                            </p>
+                            <span>14/09/2022</span>
+                            <svg width="25" height="7" viewBox="0 0 16 9" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M7.50038 7.50128L6.95754 6.95783L6.95763 6.95774L7.14708 7.14718L7.50066 7.50076L7.85421 7.14716L14.5002 0.500185L14.5002 0.500158L14.5006 0.5L14.5011 0.500185L14.5013 0.500632L14.5011 0.501078L7.50108 7.50108L7.50063 7.50153L7.14663 7.85463L7.50038 7.50128ZM3.64702 7.14713L4.0006 7.50082L4.35421 7.14716L11.0002 0.500185L11.0002 0.500158L11.0004 0.500048L11.0006 0.5L11.0009 0.500048L11.0011 0.500185L11.0012 0.50039L11.0013 0.500632L11.0012 0.500874L11.0011 0.501078L4.00108 7.50108L4.00063 7.50152L4.00019 7.50108L0.500185 4.00108L0.5 4.00063L0.500185 4.00019L0.500632 4L0.500873 4.00005L0.501078 4.00019L3.64702 7.14713Z"
+                                    fill="#FF0000" stroke="#4fb6ec" />
+                            </svg>
+                            <div class="shape"></div>
+                        </div>
+                    </div>
+                    <div class="myMessage">
+                        <div class="box message space-between">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi repellat sed at
+                                libero
+                                nam. Quasi?
+                            </p>
+                            <span>14/09/2022</span>
+                            <svg width="25" height="7" viewBox="0 0 16 9" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M7.50038 7.50128L6.95754 6.95783L6.95763 6.95774L7.14708 7.14718L7.50066 7.50076L7.85421 7.14716L14.5002 0.500185L14.5002 0.500158L14.5006 0.5L14.5011 0.500185L14.5013 0.500632L14.5011 0.501078L7.50108 7.50108L7.50063 7.50153L7.14663 7.85463L7.50038 7.50128ZM3.64702 7.14713L4.0006 7.50082L4.35421 7.14716L11.0002 0.500185L11.0002 0.500158L11.0004 0.500048L11.0006 0.5L11.0009 0.500048L11.0011 0.500185L11.0012 0.50039L11.0013 0.500632L11.0012 0.500874L11.0011 0.501078L4.00108 7.50108L4.00063 7.50152L4.00019 7.50108L0.500185 4.00108L0.5 4.00063L0.500185 4.00019L0.500632 4L0.500873 4.00005L0.501078 4.00019L3.64702 7.14713Z"
+                                    fill="#FF0000" stroke="#4fb6ec" />
+                            </svg>
+                            <div class="shape"></div>
+                        </div>
+                    </div>
+                    <div class="yourMessage">
+                        <div class="box message space-between">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi repellat sed at
+                                libero
+                                nam. Quasi?
+                            </p>
+                            <span>14/09/2022</span>
+                            <svg width="25" height="7" viewBox="0 0 16 9" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M7.50038 7.50128L6.95754 6.95783L6.95763 6.95774L7.14708 7.14718L7.50066 7.50076L7.85421 7.14716L14.5002 0.500185L14.5002 0.500158L14.5006 0.5L14.5011 0.500185L14.5013 0.500632L14.5011 0.501078L7.50108 7.50108L7.50063 7.50153L7.14663 7.85463L7.50038 7.50128ZM3.64702 7.14713L4.0006 7.50082L4.35421 7.14716L11.0002 0.500185L11.0002 0.500158L11.0004 0.500048L11.0006 0.5L11.0009 0.500048L11.0011 0.500185L11.0012 0.50039L11.0013 0.500632L11.0012 0.500874L11.0011 0.501078L4.00108 7.50108L4.00063 7.50152L4.00019 7.50108L0.500185 4.00108L0.5 4.00063L0.500185 4.00019L0.500632 4L0.500873 4.00005L0.501078 4.00019L3.64702 7.14713Z"
+                                    fill="#FF0000" stroke="#4fb6ec" />
+                            </svg>
+                            <div class="shape"></div>
+                        </div>
+                    </div>
+                    <div class="myMessage">
+                        <div class="box message space-between">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi repellat sed at
+                                libero
+                                nam. Quasi?
+                            </p>
+                            <span>14/09/2022</span>
+                            <svg width="25" height="7" viewBox="0 0 16 9" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M7.50038 7.50128L6.95754 6.95783L6.95763 6.95774L7.14708 7.14718L7.50066 7.50076L7.85421 7.14716L14.5002 0.500185L14.5002 0.500158L14.5006 0.5L14.5011 0.500185L14.5013 0.500632L14.5011 0.501078L7.50108 7.50108L7.50063 7.50153L7.14663 7.85463L7.50038 7.50128ZM3.64702 7.14713L4.0006 7.50082L4.35421 7.14716L11.0002 0.500185L11.0002 0.500158L11.0004 0.500048L11.0006 0.5L11.0009 0.500048L11.0011 0.500185L11.0012 0.50039L11.0013 0.500632L11.0012 0.500874L11.0011 0.501078L4.00108 7.50108L4.00063 7.50152L4.00019 7.50108L0.500185 4.00108L0.5 4.00063L0.500185 4.00019L0.500632 4L0.500873 4.00005L0.501078 4.00019L3.64702 7.14713Z"
+                                    fill="#FF0000" stroke="#4fb6ec" />
+                            </svg>
+                            <div class="shape"></div>
+                        </div>
+                    </div>
+                    <div class="yourMessage">
+                        <div class="box message space-between">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi repellat sed at
+                                libero
+                                nam. Quasi?
+                            </p>
+                            <span>14/09/2022</span>
+                            <svg width="25" height="7" viewBox="0 0 16 9" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M7.50038 7.50128L6.95754 6.95783L6.95763 6.95774L7.14708 7.14718L7.50066 7.50076L7.85421 7.14716L14.5002 0.500185L14.5002 0.500158L14.5006 0.5L14.5011 0.500185L14.5013 0.500632L14.5011 0.501078L7.50108 7.50108L7.50063 7.50153L7.14663 7.85463L7.50038 7.50128ZM3.64702 7.14713L4.0006 7.50082L4.35421 7.14716L11.0002 0.500185L11.0002 0.500158L11.0004 0.500048L11.0006 0.5L11.0009 0.500048L11.0011 0.500185L11.0012 0.50039L11.0013 0.500632L11.0012 0.500874L11.0011 0.501078L4.00108 7.50108L4.00063 7.50152L4.00019 7.50108L0.500185 4.00108L0.5 4.00063L0.500185 4.00019L0.500632 4L0.500873 4.00005L0.501078 4.00019L3.64702 7.14713Z"
+                                    fill="#FF0000" stroke="#4fb6ec" />
+                            </svg>
+                            <div class="shape"></div>
+                        </div>
+                    </div>
+                    <div class="myMessage">
+                        <div class="box message space-between">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi repellat sed at
+                                libero
+                                nam. Quasi?
+                            </p>
+                            <span>14/09/2022</span>
+                            <svg width="25" height="7" viewBox="0 0 16 9" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M7.50038 7.50128L6.95754 6.95783L6.95763 6.95774L7.14708 7.14718L7.50066 7.50076L7.85421 7.14716L14.5002 0.500185L14.5002 0.500158L14.5006 0.5L14.5011 0.500185L14.5013 0.500632L14.5011 0.501078L7.50108 7.50108L7.50063 7.50153L7.14663 7.85463L7.50038 7.50128ZM3.64702 7.14713L4.0006 7.50082L4.35421 7.14716L11.0002 0.500185L11.0002 0.500158L11.0004 0.500048L11.0006 0.5L11.0009 0.500048L11.0011 0.500185L11.0012 0.50039L11.0013 0.500632L11.0012 0.500874L11.0011 0.501078L4.00108 7.50108L4.00063 7.50152L4.00019 7.50108L0.500185 4.00108L0.5 4.00063L0.500185 4.00019L0.500632 4L0.500873 4.00005L0.501078 4.00019L3.64702 7.14713Z"
+                                    fill="#FF0000" stroke="#4fb6ec" />
+                            </svg>
+                            <div class="shape"></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="container"> -->
+                <div class="bottom-nav">
+                    <div class="wrapper">
+                        <div class="bottom-nav-icons">
+                            <i class="far fa-face-smile"></i>
+                            <i class="fas fa-paperclip"></i>
+                        </div>
+                        <div class="bottom-nav-input">
+                            <input type="text" placeholder="Type a Message">
+                        </div>
+                    </div>
+                    <div class="bottom-nav-aud">
+                        <img src="img/mic.svg" alt="Voice Note">
+                    </div>
+                    <!-- </div> -->
+                </div>
+            </div>
+        </div>
+
+        <script src="js/main.js"></script>
+        
+</body>
+
+</html>
